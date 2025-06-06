@@ -6,7 +6,7 @@ A react app to host a bunch of tools related to math.
 
 I was celebrating the fact that I am finally a fullstack engineer, equipped with the godly knowledge of React.
 
-Sid could not believe it.
+[Sid](https://x.com/clearlysid) could not believe it.
 
 <img src="./SCREENSHOT_ONE.png">
 <br/>
