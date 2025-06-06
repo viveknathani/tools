@@ -13,6 +13,16 @@ function App() {
       </nav>
       
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mb-8 text-center">
+          <a 
+            href="https://github.com/viveknathani/tools/blob/master/README.md" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:text-blue-800 transition-colors"
+          >
+            read the origin story
+          </a>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Link 
             to="/factors" 
