@@ -11,6 +11,7 @@ function getFactors(number) {
 function getFactorTree(number) {
   const [factor1, factor2] = getFactors(number);
   if (factor1 === number) return { value: number, children: [] };
+  if (factor1 === factor2) return { value: number, children: [getFactorTree(factor1)] };
   return { value: number, children: [getFactorTree(factor1), getFactorTree(factor2)] };
 }
 
